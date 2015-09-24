@@ -1,0 +1,6 @@
+os: macosx
+
+install:
+- ENV
+- ls $HOME
+- npm
