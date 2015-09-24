@@ -1,5 +1,9 @@
 os: macosx
 
+environment:
+  myvar1: Hello, world!
+  ANOTHER_VAR: Test!!!
+
 install:
 - ENV
 - ls $HOME
