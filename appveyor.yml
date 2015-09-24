@@ -7,4 +7,7 @@ environment:
 install:
 - ENV
 - ls $HOME
+- sh: echo "This is Bash script!"
 - npm
+- ps: This is run on Windows only!
+- ps: This run on Windows too!
