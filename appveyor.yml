@@ -6,6 +6,7 @@ environment:
 
 install:
 - ENV
+- ls
 - ls $HOME
 - sh: echo "This is Bash script!"
 - npm
