@@ -1,4 +1,4 @@
-os: macosx
+os: Mac OS X
 
 environment:
   myvar1: Hello, world!
