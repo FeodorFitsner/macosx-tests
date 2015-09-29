@@ -6,7 +6,8 @@ environment:
 
 install:
 - echo "Should be run on both Windows and Mac"
-- ENV
+- sh: ENV
+- ps: 'gci env:'
 - ls
 - sh: ls $HOME
 - sh: echo "This is Bash script!"
