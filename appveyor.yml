@@ -11,8 +11,8 @@ install:
 - sh: ls $HOME
 - sh: echo "This is Bash script!"
 - npm --version
-- ps: Write-Host 'This is run on Windows only!'
-- cmd: echo This run on Windows too!
+- ps: Write-Host "This is run on Windows only: $env:USERHOME"
+- cmd: echo This run on Windows too: %USERHOME%
 
 build: off
 test: off
