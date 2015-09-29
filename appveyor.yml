@@ -13,3 +13,6 @@ install:
 - npm --version
 - ps: Write-Host 'This is run on Windows only!'
 - cmd: echo This run on Windows too!
+
+build: off
+test: off
