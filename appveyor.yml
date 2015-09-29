@@ -5,10 +5,11 @@ environment:
   ANOTHER_VAR: Test!!!
 
 install:
+- echo "Should be run on both Windows and Mac"
 - ENV
 - ls
 - ls $HOME
 - sh: echo "This is Bash script!"
 - npm
 - ps: This is run on Windows only!
-- ps: This run on Windows too!
+- cmd: This run on Windows too!
