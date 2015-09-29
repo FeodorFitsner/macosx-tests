@@ -1,4 +1,4 @@
-#os: Mac OS X
+os: Mac OS X
 #os: Visual Studio 2015
 
 environment:
