@@ -12,4 +12,4 @@ install:
 - sh: echo "This is Bash script!"
 - npm --version
 - ps: This is run on Windows only!
-- cmd: This run on Windows too!
+- cmd: echo This run on Windows too!
