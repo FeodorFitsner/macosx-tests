@@ -8,7 +8,7 @@ install:
 - echo "Should be run on both Windows and Mac"
 - ENV
 - ls
-- ls $HOME
+- sh: ls $HOME
 - sh: echo "This is Bash script!"
 - npm
 - ps: This is run on Windows only!
