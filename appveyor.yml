@@ -10,6 +10,6 @@ install:
 - ls
 - sh: ls $HOME
 - sh: echo "This is Bash script!"
-- npm
+- npm --version
 - ps: This is run on Windows only!
 - cmd: This run on Windows too!
