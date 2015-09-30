@@ -7,7 +7,7 @@ environment:
   ANOTHER_VAR: Test!!!
 
 install:
-- sh: system_profiler
+- sh: sw_vers
 - echo "Should be run on both Windows and Mac"
 - sh: cat $HOME/buildagent/.worker-config
 - sh: ENV
