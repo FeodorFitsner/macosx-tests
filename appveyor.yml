@@ -1,5 +1,6 @@
-os: Mac OS X
-#os: Visual Studio 2015
+os:
+- Mac OS X
+- Windows Server 2012 R2
 
 environment:
   myvar1: Hello, world!
