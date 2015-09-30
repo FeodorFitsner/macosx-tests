@@ -1,6 +1,6 @@
 os:
 - Mac OS X
-- Windows Server 2012 R2
+#- Windows Server 2012 R2
 
 environment:
   myvar1: Hello, world!
