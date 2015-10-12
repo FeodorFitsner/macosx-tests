@@ -1,1 +1,4 @@
 os: osx
+
+script:
+- echo "Hello, Mac!"
