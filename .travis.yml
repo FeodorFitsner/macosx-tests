@@ -1,5 +1,1 @@
 os: osx
-osx_image: xcode7
-
-install:
-- echo "Hello MAC"
