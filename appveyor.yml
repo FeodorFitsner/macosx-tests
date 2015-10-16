@@ -18,7 +18,8 @@ install:
 - npm --version
 - ps: 'Write-Host "This is run on Windows only: $env:USERPROFILE"'
 - cmd: 'echo This run on Windows too: %USERPROFILE%'
-- sh: appveyor PackageArtifacts
+#- sh: appveyor PackageArtifacts
+- sh: appveyor PushArtifact
 
 build: off
 
