@@ -9,7 +9,6 @@ environment:
 install:
 - sh: sw_vers
 - echo "Should be run on both Windows and Mac"
-- sh: appveyor RegisterXamarinLicense1
 - sh: ENV
 - batch: should be skipped by both platforms
 - ps: 'gci env:'
