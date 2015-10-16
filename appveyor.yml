@@ -8,7 +8,7 @@ environment:
 
 install:
 - sh: sw_vers
-- sh: appveyor UnregisterXamarinLicense
+#- sh: appveyor UnregisterXamarinLicense
 - echo "Should be run on both Windows and Mac"
 - sh: ENV
 - batch: should be skipped by both platforms
